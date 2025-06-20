@@ -30,6 +30,7 @@ function install(){
 
 function clean() {
 	echo "🧹 Cleaning up virtual environment and related files ..."
+	deactivate
 	rm -rf ./venv __pycache__/
 	echo "✅ Cleaning completed."
 }
